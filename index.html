@@ -1,0 +1,41 @@
+<!-- I worked with the help of this tutorial (https://www.youtube.com/watch?v=jvk1pFNqXaw) to create the basic page function and format. I modified the quiz look and function to create an open-ended composition assistant for students practicing writing new music. The students have already practiced writing music on paper, and have done small composition assignments, but this should be their first open-ended composition they are completing completely independently. This guide is for use at home when students are composing independently on staff paper.
+-->
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Choose your own adventure - Composition</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="grid">
+        <div id="quiz">
+            <h1>Composition:<br>Choose Your Own Adventure</h1>
+         
+            <hr style="margin-bottom: 25px">
+
+            <p id="question"></p>
+
+            <div class="buttons">
+                <button id="btn0"><span id="choice0"></span></button>
+                <button id="btn1"><span id="choice1"></span></button>
+                <button id="btn2"><span id="choice2"></span></button>
+                <button id="btn3"><span id="choice3"></span></button>
+            </div>
+
+            <hr style="margin-top: 50px">
+            <footer>
+                <p id="progress">Question x of y</p>
+            </footer>
+        </div>
+    </div>
+<!-- commenting out the script sources since it's self-contained
+
+<script src="quiz.js"></script>
+<script src="question.js"></script>
+<script src="app.js"></script>
+-->
+  
+</body>
+</html>
